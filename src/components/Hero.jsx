@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-// import  {GirlsCanvas}  from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 import { Girl }  from "./Girl";
 
 // purple = B2AFE5
@@ -20,17 +19,18 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Hi, I'm <span className='text-[#915EFF]'>Emily</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+            I'm a top CS graduate from the <br className='sm:block hidden' />
+            University of Nottingham, UK <br className='sm:block hidden' />
           </p>
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
-      <Girl />
+      <div className='absolute inset-0 top-[80px] max-w-7xl ml-auto mr-3 flex flex-row items-end'>
+        <Girl />
+      </div>
 
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
