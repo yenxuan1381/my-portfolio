@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
-
+import React, { useState, useEffect } from 'react';
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
-import { Girl }  from "./Girl";
+import { Girl } from "./Girl";
 
 // purple = B2AFE5
 
 const Hero = () => {
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -28,16 +29,20 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='absolute inset-0 top-[80px] max-w-7xl ml-auto mr-3 flex flex-row items-end'>
+      <div className={`absolute inset-0 top-[80px] max-w-7xl ml-auto mr-3 flex flex-row items-end ${styles.canvas}`}>
         <Girl />
       </div>
 
+      {/* <div className='abosulte inset-0 top-[200px] max-w-screen-xl mx-auto flex flex-row items-end lg:scale-80 lg:translate-x-200 md:scale-70 md:translate-x-600 sm:scale-50 lg:translate-x-100 xs:scale-45 xs:translate-x-50'>
+        <Girl />
+      </div> */}
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-32 w-full  flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
+
                 y: [0, 24, 0],
               }}
               transition={{
