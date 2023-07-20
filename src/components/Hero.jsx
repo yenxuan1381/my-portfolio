@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
 import { Girl } from "./Girl";
-
+import CvButton from "./CvButton";
 // purple = B2AFE5
 
 const Hero = () => {
@@ -23,9 +23,11 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Emily</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a top CS graduate from the <br className='sm:block hidden' />
+            I'm a master's graduate from the <br className='sm:block hidden' />
             University of Nottingham, UK <br className='sm:block hidden' />
           </p>
+          <br/>
+          <CvButton />
         </div>
       </div>
 
