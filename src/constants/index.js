@@ -16,6 +16,8 @@ import {
   figma,
   docker,
   meta,
+  nottingham,
+  tanand,
   starbucks,
   tesla,
   shopify,
@@ -23,6 +25,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  kali,
+  mysql,
+  postgres,
+  python,
+  solidity,
+  kayo,
+  identeefi,
+  nottstutor,
 } from "../assets";
 
 export const navLinks = [
@@ -81,8 +91,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Solidity",
+    icon: solidity,
   },
   {
     name: "Tailwind CSS",
@@ -93,24 +103,24 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "PostgreSQL",
+    icon: postgres,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Kali Linux",
+    icon: kali,
   },
 ];
 
@@ -118,8 +128,8 @@ const experiences = [
   {
     title: "MSc Financial Technology",
     company_name: "University of Nottingham",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: nottingham,
+    iconBg: "#005F95",
     date: "Sep 2023 - Sep 2024",
     points: [
       "Predicted Grade: First Class",
@@ -129,7 +139,7 @@ const experiences = [
   {
     title: "Software Engineering Intern",
     company_name: "Tanand Technology Sdn Bhd",
-    icon: tesla,
+    icon: tanand,
     iconBg: "#E6DEDD",
     date: "June 2022 - Sep 2022",
     points: [
@@ -141,8 +151,8 @@ const experiences = [
   {
     title: "BSc Computer Science (Hons)",
     company_name: "University of Nottingham",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: nottingham,
+    iconBg: "#005F95",
     date: "Sep 2021 - July 2023",
     points: [
       "Grade: First Class Honours, Rank 1",
@@ -194,67 +204,76 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Anti-Counterfeit Product Identification System using Blockchain",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to track their products throughout the supply chain to determine its authenticity by interacting with smart contracts on the Ethereum blockchain.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ethers.js",
         color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: identeefi,
+    source_code_link: "https://github.com/yenxuan1381/anti-counterfeit-product-identification-system-using-blockchain",
   },
   {
-    name: "Trip Guide",
+    name: "Food Ordering Chatbot using AI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An AI-powered food ordering chatbot that uses NLP techniques to interact with users, present menus, handle orders, and calculate prices. It's integrated with Telegram for a seamless chat experience. This project won the Top 7 finalist of the nationally renowned Nott-A-Code Competition 2021.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nlp",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: kayo,
+    source_code_link: "https://github.com/yenxuan1381/food-ordering-chatbot-using-ai",
+  },
+  {
+    name: "NottsTutor 2.0: Personal Tutoring System",
+    description:
+      "A web application that streamlines personal tutoring in educational institutions by automating student management process. PHP is used for server-side scripting and MySQL for database management. It is deployed and used by over 7K people in the University of Nottingham Malaysia.", 
+    tags: [
+      {
+        name: "php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nottstutor,
+    source_code_link: "https://github.com/yenxuan1381/personal-tutoring-system",
   },
 ];
 

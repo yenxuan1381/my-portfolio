@@ -49,8 +49,8 @@ const About = () => {
       >
         I am a top computer science graduate with a strong focus on
          Solidity, TypeScript and JavaScript. My expertise extends to various frameworks, 
-         including React, Node.js, Express.js, and to various fields such as machine learning
-         and cybersecurity. My curiosity has led me to be particularly 
+         including React, Node.js, Express.js, and to various fields such as financial technology,
+         machine learning and cybersecurity. My curiosity has led me to be particularly 
         captivated by the realm of web3 and the exciting opportunities 
         it offers within the blockchain industry and I am eager to embark on this journey any time soon.
 

@@ -30,6 +30,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import nottingham from "./company/nottingham.png";
+import tanand from "./company/tanand.png";
+import kali from "./tech/kali.png";
+import mysql from "./tech/mysql.png";
+import postgres from "./tech/postgres.png";
+import python from "./tech/python.png";
+import solidity from "./tech/solidity.png";
+
+import identeefi from "./identeefi.png";
+import kayo from "./kayo.png";
+import nottstutor from "./nottstutor.png";
+
+
 export {
   logo,
   backend,
@@ -59,4 +72,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  nottingham,
+  tanand,
+  kali,
+  mysql,
+  postgres,
+  python,
+  solidity,
+  identeefi,
+  kayo,
+  nottstutor
 };

@@ -18,10 +18,12 @@
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.375",
     "framer-motion": "^9.0.7",
+    "gsap": "^3.12.2",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
+    "react-spinners": "^0.13.8",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.149.0"
