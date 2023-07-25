@@ -156,7 +156,7 @@ const experiences = [
     date: "Sep 2021 - July 2023",
     points: [
       "Grade: First Class Honours, Rank 1",
-      "Recipient of the Best Student Award 2023, Dean’s Excellence Scholarship Award",
+      "Recipient of the Best Student Award 2023, Dean’s Excellence Scholarship Award, Best Presentor Award",
       "School of Computer Science Representative",      
     ],
   },
@@ -270,6 +270,10 @@ const projects = [
       {
         name: "css",
         color: "blue-text-gradient",
+      },
+      {
+        name: "apache",
+        color: "green-text-gradient",
       },
     ],
     image: nottstutor,

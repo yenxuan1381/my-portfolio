@@ -22,7 +22,7 @@ const App = () => {
             <BeatLoader color='#fff' />
           </div>
           <p className='ml-2 text-white'>Loading...</p>
-          <p className='text-white text-[12px] absolute bottom-5 mb-2'> This website uses 3D componenets, hence loading may take a while. </p>
+          <p className='text-white text-[12px] absolute bottom-5 mb-2'> This website uses 3D components, hence loading may take a while. </p>
         </div>
         
       )}
