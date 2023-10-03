@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { styles } from "../styles";
 // import { ComputersCanvas } from "./canvas";
 import { Girl } from "./Girl";
-import CvButton from "./CvButton";
 // purple = B2AFE5
 
 const Hero = () => {
@@ -27,7 +26,7 @@ const Hero = () => {
             University of Nottingham, UK <br className='sm:block hidden' />
           </p>
           <br/>
-          {/* <CvButton /> */}
+
         </div>
       </div>
 
