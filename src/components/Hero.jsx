@@ -27,7 +27,7 @@ const Hero = () => {
             University of Nottingham, UK <br className='sm:block hidden' />
           </p>
           <br/>
-          <CvButton />
+          {/* <CvButton /> */}
         </div>
       </div>
 

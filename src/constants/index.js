@@ -8,23 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
   nottingham,
   tanand,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   kali,
   mysql,
   postgres,
@@ -52,6 +40,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "https://drive.google.com/file/d/1PusbxH3s7IIwaQ6UNfjCq-qAixb634UP/view?usp=sharing",
+    title: "Resume",
+  }
 ];
 
 const services = [
